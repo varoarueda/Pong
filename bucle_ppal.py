@@ -5,7 +5,7 @@ pygame.init()
 pantalla = pygame.display.set_mode((800, 600)) # crea Pantalla
 
 game_over = False # Condicion para acabar el juego
-while not game_over:
+while not game_over: # Mientras game_over es True
 
     eventos = pygame.event.get() # Procesa eventos. Al meterlos en una varible evita que se pierdan al acabar/iniciar el blucle
     for evento in eventos:
